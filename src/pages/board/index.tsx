@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/link-passhref */
 import Head from 'next/head'
 import styles from './styles.module.scss'
 import { FiPlus, FiCalendar, FiEdit2, FiTrash, FiClock, FiX } from 'react-icons/fi'
