@@ -10,7 +10,7 @@ import Link from 'next/link'
 
 import firebase from '../../services/firebaseConnection'
 import { format, formatDistance } from 'date-fns'
-import ptBR from 'date-fns/esm/locale/pt-BR/index.js'
+import {ptBR} from 'date-fns/locale'
 
 type TaskList = {
     id: string;
